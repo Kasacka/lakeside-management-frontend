@@ -17,3 +17,5 @@ docs
 # Temporary env files
 /public/env.js
 env.js
+
+/vendor/

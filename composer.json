@@ -1,0 +1,10 @@
+{
+    "name": "joelegger/lakeside-management-frontend",
+    "authors": [
+        {
+            "name": "Joel",
+            "email": "joel.egger@hsr.ch"
+        }
+    ],
+    "require": {}
+}
