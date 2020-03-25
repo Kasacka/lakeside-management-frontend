@@ -14,7 +14,7 @@ npm-debug.log
 docs
 
 # Temporary env files
-/public/env.js
-env.js
+#/public/env.js
+#env.js
 
 /vendor/

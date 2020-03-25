@@ -1,0 +1,1 @@
+window._env = {"NODE_ENV":"development","REACT_APP_CUSTOMER_MANAGEMENT_BACKEND":"http://lakeside-management-backend.azurewebsites.net/","REACT_APP_CUSTOMER_SELF_SERVICE_BACKEND":"http://localhost:8080"};
