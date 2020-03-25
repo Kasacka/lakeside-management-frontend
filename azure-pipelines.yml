@@ -46,6 +46,9 @@ stages:
       workingDirectory: $(rootFolder)
       displayName: 'Composer install'
 
+    - script: npm run-script build
+      displayName: 'NpmBuild'
+
     - task: ArchiveFiles@2
       displayName: 'Archive files'
       inputs:
