@@ -46,6 +46,9 @@ stages:
       workingDirectory: $(rootFolder)
       displayName: 'Composer install'
 
+    - script: npm update caniuse-lite browserslist
+      displayName: 'Update CanIUse'
+
     - script: npm install react-scripts
       displayName: 'Install ReactScripts Plugin'
 
