@@ -46,14 +46,14 @@ stages:
       workingDirectory: $(rootFolder)
       displayName: 'Composer install'
 
-    #- script: npm update caniuse-lite browserslist
-    #  displayName: 'Update CanIUse'
+    - script: npm update caniuse-lite browserslist
+      displayName: 'Update CanIUse'
 
-    #- script: npm install react-scripts
-    #  displayName: 'Install ReactScripts Plugin'
+    - script: npm install react-scripts
+      displayName: 'Install ReactScripts Plugin'
 
-    #- script: npm run-script build
-    #  displayName: 'NpmBuild'
+    - script: npm run-script build
+      displayName: 'NpmBuild'
 
     - task: ArchiveFiles@2
       displayName: 'Archive files'
